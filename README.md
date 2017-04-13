@@ -1,6 +1,6 @@
-# Création d'un API avec nodejs et une base de données MySql 
+# Création d'une API avec nodejs et une base de données MySql
 
-##### Création d'un simple API Restavec NodeJs et une utilisation de la base de données MySql.
+##### Création d'une simple API Rest avec NodeJs et une utilisation de la base de données MySql.
 
 ### Pré-requis
 * Installer nodejs <http://nodejs.org/>
@@ -10,9 +10,9 @@ Cloner ce projet puis votre terminal lancer
 
 
        npm install
-                
+
  pour installer les dépendances du projet.
- 
+
 #### Les dépendances majeurs utilisées dans ce projet sont
 * **knexjs:** pour les réquettes SQL et la migration <http://knexjs.org/> .
 * **expressjs:** pour créer l'infrastructure web <http://expressjs.com/fr/>.
@@ -22,24 +22,23 @@ Cloner ce projet puis votre terminal lancer
 * pour créer une migration
 
        knex migrate:make <nom_de_la_migration>
-       
+
  * pour exécuter une migration
- 
+
         knex migrate:latest
- 
+
  * pour créer une seed
- 
+
         knex seed:make <nom_de_la_seed>
-        
+
  * pour exécuter une seed
- 
+
         knex seed:run
- 
+
  Pour lancer le serveur j'ai installé **nodemon**
-    
+
         npm install -g nodemon
-        
+
  Ouvrer votre navigateur et taper: <http://localhost:3000>
- 
- 
- 
+
+
