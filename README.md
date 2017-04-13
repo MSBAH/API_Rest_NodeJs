@@ -18,7 +18,7 @@ Cloner ce projet puis votre terminal lancer
 * **expressjs:** pour créer l'infrastructure web <http://expressjs.com/fr/>.
 * **handlebarsjs:** pour le moteur de template <http://handlebarsjs.com/>
 
-####les commandes à exécuter:
+#### les commandes à exécuter:
 * pour créer une migration
 
        knex migrate:make <nom_de_la_migration>
